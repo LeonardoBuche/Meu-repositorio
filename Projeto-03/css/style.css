@@ -79,7 +79,7 @@ header .logo{
 	float: left;
 	width: 160px;
 	height: 40px;
-	background-image: url(../Imagens/logo.png);
+	background-color: #ccc;
 	background-repeat: no-repeat;
 }
 
@@ -424,6 +424,38 @@ section.sessao1 .container{
 	border: 5px solid rgb(200, 200, 200);
 }
 
+section.diferenciais{
+	padding: 40px 0;
+}
+
+section.diferenciais > .container > h2{
+	text-align: center;
+	font-size: 27px;
+	font-weight: 300;
+	color: #472563;
+}
+
+.box-diferenciais{
+	margin-top: 40px;
+}
+
+.box-single-diferencial{
+	float: left;
+	width: 33.3%;
+	padding: 0 10px;
+}
+
+.box-single-diferencial h2{
+	font-size: 55px;
+	color: #472563;
+	text-align: center;
+}
+
+.box-single-diferencial p{
+	color: rgb(100, 100, 100);
+	font-size: 15px;
+}
+
 footer{
 	padding: 40px 2%;
 	background: #192123;
@@ -559,6 +591,18 @@ footer p:nth-of-type(2){
 	height: 100%;
 	padding-top: 0;
 }
+
+	.box-single-diferencial{
+		width: 100%;
+		margin-top: 12px;
+		text-align: center;
+	}
+
+	.box-single-diferencial p{
+		display: inline-block;
+		max-width: 500px;
+	}
+
 
 }
 
